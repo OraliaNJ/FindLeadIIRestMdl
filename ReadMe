@@ -18,7 +18,7 @@ For *.csv files:
 
 
 REFERENCES
-[1] Wagner, P., Strodthoff, N., Bousseljot, R., Samek, W., & Schaeffter, T. PTB-XL, a large publicly available electrocardiography dataset (version 1.0. 3). PhysioNet (2022). RRID: SCR_007345.
+[1] Wagner, P., Strodthoff, N., Bousseljot, RD. et al. PTB-XL, a large publicly available electrocardiography dataset. Sci Data 7, 154 (2020). https://doi.org/10.1038/s41597-020-0495-6.
 
 [2] Strodthoff, N., Wagner, P., Schaeffter, T., & Samek, W. (2020). Deep learning for ECG analysis: Benchmarks and insights from PTB-XL. IEEE journal of biomedical and health informatics, 25(5), 1519-1528.
 
