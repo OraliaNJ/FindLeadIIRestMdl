@@ -1,0 +1,27 @@
+
+The FindLeadIIMdl network was trained with the database PTB-XL [1-3], and we conducted the tight methodology (4GB VRAM, NVIDIA GeForce GTX 1050) using CUDA 11.6, PyTorch 1.12.1, and fastai 1.0.61 (see Table S0), running locally. 
+Our basis was this work [4] benchmarks, which utilized NVIDIA GeForce RTX 2080 Ti GPUs, are documented in the study's official GitHub repository.
+
+STEPS:
+1) git clone https://github.com/helme/ecg_ptbxl_benchmarking.git [4]. It's going to take time because it will download the dataset [1].
+2) cd Documents/ecg_ptbxl_benchmarking/
+2.1) cd code
+3) Download my_codes_FindLeadIIRestMdl.zip. 
+3.1) Copy the four .py files (at the code folder).
+3.2) my_upload_to_5000.py is the main document.
+3.3) To rewrite the path of the folder with the dataset [3].
+  
+For *.csv files:
+4) Download the folder Reading_BIN.
+4.1) Open the file Reading_my_BIN_file_12bits.m and rewrite the path of the folder with BIN files.
+4.2) We already created the *.csv files for you as an example, but you can work with your benchmark.
+
+
+REFERENCES
+[1] Wagner, P., Strodthoff, N., Bousseljot, R., Samek, W., & Schaeffter, T. PTB-XL, a large publicly available electrocardiography dataset (version 1.0. 3). PhysioNet (2022). RRID: SCR_007345.
+
+[2] Strodthoff, N., Wagner, P., Schaeffter, T., & Samek, W. (2020). Deep learning for ECG analysis: Benchmarks and insights from PTB-XL. IEEE journal of biomedical and health informatics, 25(5), 1519-1528.
+
+[3] Goldberger, A. L., Amaral, L. A., Glass, L., Hausdorff, J. M., Ivanov, P. C., Mark, R. G., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals. circulation, 101(23), e215-e220.
+
+[4] helme. (2026). ecg_ptbxl_benchmarking: Deep learning for ECG analysis: Benchmarks and insights from PTB-XL [GitHub]. Retrieved September 8th, 2026, from https://github.com/helme/ecg_ptbxl_benchmarking
